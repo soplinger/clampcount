@@ -1,0 +1,18 @@
+# Cabinet door panel: metric, hide glue, frame diagonals checked
+name: Cabinet door panel
+units: mm
+glue: hide
+temp: 14            # cold shop: open time stretches by ×1.25
+start: 13:30
+dryfit: 15
+assembly: 4
+max_spacing: 150
+square_tol: 0.5     # mm allowed between the two diagonals
+
+clamps: 6, 600, 300
+
+board: 90, 610, 18
+board: 90, 610, 18
+
+# measured corner-to-corner diagonals of the assembled frame, mm
+diag: 700, 700.4

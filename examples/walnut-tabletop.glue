@@ -1,0 +1,17 @@
+# Walnut tabletop: three edge-glued boards, imperial units
+name: Walnut tabletop
+units: in
+glue: pva
+temp: 22            # °C in the shop; sets the open-time factor
+start: 09:00        # when the dry fit starts (24-hour clock)
+dryfit: 10          # minutes spent dry-fitting before glue goes on
+assembly: 5         # minutes from glue-up to clamps on
+max_spacing: 8      # widest gap between clamps along the length
+pressure: 100       # psi on the glue line; omit to use the glue preset
+
+# count, opening, force (lbf). Mixed numbers like 1 1/2 are fine.
+clamps: 8, 36, 1200
+
+board: 6 1/2, 48, 3/4
+board: 6 1/2, 48, 3/4
+board: 6 3/8, 48, 3/4
